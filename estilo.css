@@ -1,0 +1,93 @@
+body{
+	background-image: url('imagens/bg.jpg');
+	background-size: 100%;
+}
+
+
+.mosquito1 {
+	width: 45px;
+	height: 45px;
+}
+
+.mosquito2 {
+	width: 90px;
+	height: 90px;
+}
+
+.mosquito3 {
+	width: 120px;
+	height: 120px;
+}
+
+.ladoA {
+	transform: scaleX(1);
+}
+
+.ladoB {
+	transform: scaleX(-1);
+}
+
+.placar{
+	background-color: #fff;
+	border: 3px solid #000;
+	border-radius: 5px;
+	width: 300px;
+	height:175px;
+}
+
+.abc{
+	padding-left: 15px;
+	padding: auto;
+}
+
+h2{
+	font-size: 24px;
+	font-family: 'impact';
+	font-weight: lighter;
+}
+
+span{
+	font-size: 40px;
+	font-family: 'impact';
+	font-weight: lighter;
+
+}
+
+
+.resultadoFinal{
+	border-radius: 100px;
+	border: 2px solid #000;
+	width: 500px;
+	height: 500px;
+}
+
+.audio{
+	float: left;
+	opacity: 0.7;
+}
+.menu{
+	width: 300px;
+	height: 250px;
+}
+
+.voltar{
+	width: 200px;
+	height: 170px;
+	float: left;
+	border-radius: 50px;
+	border: 1px solid #000;
+	background-color: rgb(228, 92, 92);
+}
+
+a{
+	font-size: 22px;
+	font-family: 'impact';
+	text-decoration: none;
+	color: rgb(153, 16, 16);
+}
+
+a:hover{
+	font-size: 32px;
+
+
+}

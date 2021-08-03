@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Página do jogo</title>
+
+		<link rel="stylesheet" href="estilo.css" />
+	
+        <script src="facil.js"></script>
+	</head>
+	<body onresize="ajustaTamanhoPalcoJogo()">
+
+		<div class="menu">
+				<div class="placar">
+					<a href="index.html">Página Inicial</a>
+					<div class="abc">
+						<h2>Tempo restante : <span id="cronometro"></span></h2>
+						<h2>Sua pontuação :  <span id="counter-label">0</span>
+							
+						</h2>
+						
+					</div>
+					
+						
+					
+				</div>
+		</div>
+
+		<script>
+
+			document.getElementById('cronometro').innerHTML = tempo
+
+			setInterval(function() { 
+				posicaoRandomica()
+			}, 1000)
+		</script>
+	</body>
+</html>
